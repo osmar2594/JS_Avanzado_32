@@ -6,7 +6,7 @@ const {
     vehiculos
 } = require('./CONST')
 
-const os = require('os')
+const os = require('node:os')
 
 console.log(suma(20, 10))
 console.log(resta(20, 10))
@@ -20,5 +20,5 @@ vehiculos.forEach(element => {
     
 })
 
-console.log(os.cpus(), 'procesadores disponibles')
-console.log(os.hostname() + ' nombre del host ')
+
+console.log(' nombre del host ' + os.hostname())
