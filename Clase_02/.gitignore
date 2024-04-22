@@ -1,0 +1,4 @@
+
+//agregar todas las carpetas que no quiero que se suban al git
+
+node_modules
