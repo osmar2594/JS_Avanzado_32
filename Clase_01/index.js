@@ -12,6 +12,7 @@ console.log(suma(20, 10))
 console.log(resta(20, 10))
 console.log(multi(20, 10))
 console.log(division(20, 10))
+console.log(multi(10, 10))
 
 console.log(mod(10, 20))
 
