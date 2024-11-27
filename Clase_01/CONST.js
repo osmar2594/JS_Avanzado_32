@@ -8,6 +8,10 @@ const vehiculos = [
         "modelo": "Fussion",
         "marca": "Ford"
         
+    },
+    {
+        "modelo": "CT4",
+        "marca": "Cadillac"
     }
 ]
 
