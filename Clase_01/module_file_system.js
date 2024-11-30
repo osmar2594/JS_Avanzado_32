@@ -10,9 +10,10 @@ const os = require('node:os')
 console.log('el nombre del host es: ' + os.hostname())
 console.log('el numero de CPUs es: ' + os.cpus().length)
 
+
+
 // Funcion syncrona = se resuelven de inmediation
 // Funcion asyncrona = tardan en resolverse
-
 
 // Llamada Promesa o Asyncrona
 const file = fs.readFile('./lista.txt', 'utf-8', (err, info) => {
@@ -24,10 +25,10 @@ const file = fs.readFile('./lista.txt', 'utf-8', (err, info) => {
 })
 
 
-// puedo cerrar sesiones de base de datos
-//mandar mensajes
+
+// // puedo cerrar sesiones de base de datos
+// //mandar mensajes
 process.on('beforeExit', () => {
     console.log('Come back soon!')
     
 })
-
